@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviary Tech Solutions Ltd - Header & Logo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .preview-section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c5282;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        /* Word Document Header */
+        .word-header {
+            border: 2px solid #e2e8f0;
+            padding: 20px;
+            background: white;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #2c5282;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo-container {
+            width: 80px;
+            height: 80px;
+        }
+
+        .company-info h1 {
+            color: #2c5282;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
+
+        .slogan {
+            color: #4a5568;
+            font-size: 13px;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .header-right {
+            text-align: right;
+            color: #4a5568;
+            font-size: 11px;
+            line-height: 1.6;
+        }
+
+        .header-right div {
+            margin-bottom: 3px;
+        }
+
+        /* Logo Designs */
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .logo-item {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .logo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .logo-item h3 {
+            margin-top: 15px;
+            color: #2c5282;
+            font-size: 16px;
+        }
+
+        /* Logo SVGs */
+        .logo-svg {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        /* Instructions */
+        .instructions {
+            background: #edf2f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .instructions h3 {
+            color: #2c5282;
+            margin-bottom: 10px;
+        }
+
+        .instructions ul {
+            list-style-position: inside;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        /* Download button */
+        .download-btn {
+            display: inline-block;
+            background: #2c5282;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #1a365d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Word Document Header Preview -->
+        <div class="preview-section">
+            <h2>📄 Word Document Header Preview</h2>
+            
+            <div class="word-header">
+                <div class="header-content">
+                    <div class="header-left">
+                        <div class="logo-container">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Main circle background -->
+                                <circle cx="50" cy="50" r="48" fill="#2c5282" stroke="#1a365d" stroke-width="2"/>
+                                
+                                <!-- Stylized bird (abstract) -->
+                                <path d="M 30 50 Q 35 35, 50 40 T 70 50" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                <path d="M 50 40 Q 55 30, 65 35" stroke="#60a5fa" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                                
+                                <!-- Wings -->
+                                <path d="M 35 45 Q 25 50, 30 60 Q 35 55, 35 50" fill="#93c5fd" opacity="0.8"/>
+                                <path d="M 65 45 Q 75 50, 70 60 Q 65 55, 65 50" fill="#93c5fd" opacity="0.8"/>
+                                
+                                <!-- Tech elements (circuit lines) -->
+                                <line x1="40" y1="65" x2="45" y2="65" stroke="#60a5fa" stroke-width="1.5"/>
+                                <circle cx="45" cy="65" r="1.5" fill="#60a5fa"/>
+                                <line x1="45" y1="65" x2="50" y2="70" stroke="#60a5fa" stroke-width="1.5"/>
+                                <circle cx="50" cy="70" r="1.5" fill="#60a5fa"/>
+                                
+                                <line x1="60" y1="65" x2="55" y2="65" stroke="#60a5fa" stroke-width="1.5"/>
+                                <circle cx="55" cy="65" r="1.5" fill="#60a5fa"/>
+                                <line x1="55" y1="65" x2="50" y2="70" stroke="#60a5fa" stroke-width="1.5"/>
+                                
+                                <!-- Company initials -->
+                                <text x="50" y="58" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">AT</text>
+                            </svg>
+                        </div>
+                        <div class="company-info">
+                            <h1>Aviary Tech Solutions Ltd</h1>
+                            <div class="slogan">Empowering Your Business with Technology</div>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div><strong>Email:</strong> info@atsl.co.ke</div>
+                        <div><strong>Phone:</strong> +254 736 724 070</div>
+                        <div><strong>Web:</strong> www.atsl.coke</div>
+                        <div><strong>Location:</strong> Jubilee Exchange Building, P.O. Box 7264-00300, Nairobi, Kenya</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h3>📋 How to Use This Header in Microsoft Word</h3>
+                <ul>
+                    <li>Open Microsoft Word and go to <strong>Insert → Header → Edit Header</strong></li>
+                    <li>Right-click on any logo below and save it as an image</li>
+                    <li>In the header section, insert the saved logo image</li>
+                    <li>Add the company name and slogan next to the logo using text boxes</li>
+                    <li>Add your contact information on the right side</li>
+                    <li>Draw a line at the bottom using <strong>Insert → Shapes → Line</strong></li>
+                    <li>Adjust spacing and alignment to match the preview above</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Logo Options -->
+        <div class="preview-section">
+            <h2>🎨 Logo Design Options</h2>
+            <p style="color: #4a5568; margin-bottom: 20px;">Right-click any logo to save it for use in your documents</p>
+            
+            <div class="logo-grid">
+                <!-- Logo 1: Bird with Circuit -->
+                <div class="logo-item">
+                    <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="#2c5282" stroke="#1a365d" stroke-width="2"/>
+                        <path d="M 30 50 Q 35 35, 50 40 T 70 50" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <path d="M 50 40 Q 55 30, 65 35" stroke="#60a5fa" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <path d="M 35 45 Q 25 50, 30 60 Q 35 55, 35 50" fill="#93c5fd" opacity="0.8"/>
+                        <path d="M 65 45 Q 75 50, 70 60 Q 65 55, 65 50" fill="#93c5fd" opacity="0.8"/>
+                        <line x1="40" y1="65" x2="45" y2="65" stroke="#60a5fa" stroke-width="1.5"/>
+                        <circle cx="45" cy="65" r="1.5" fill="#60a5fa"/>
+                        <line x1="45" y1="65" x2="50" y2="70" stroke="#60a5fa" stroke-width="1.5"/>
+                        <circle cx="50" cy="70" r="1.5" fill="#60a5fa"/>
+                        <line x1="60" y1="65" x2="55" y2="65" stroke="#60a5fa" stroke-width="1.5"/>
+                        <circle cx="55" cy="65" r="1.5" fill="#60a5fa"/>
+                        <line x1="55" y1="65" x2="50" y2="70" stroke="#60a5fa" stroke-width="1.5"/>
+                        <text x="50" y="58" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">AT</text>
+                    </svg>
+                    <h3>Tech Bird Badge</h3>
+                </div>
+
+                <!-- Logo 2: Abstract Wing -->
+                <div class="logo-item">
+                    <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2c5282;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#3182ce;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 20 50 Q 30 20, 50 25 Q 70 30, 80 50 Q 70 45, 50 40 Q 30 35, 20 50 Z" fill="url(#grad1)"/>
+                        <path d="M 25 55 Q 35 30, 50 35 Q 65 40, 75 55 Q 65 50, 50 45 Q 35 40, 25 55 Z" fill="#60a5fa"/>
+                        <circle cx="50" cy="50" r="8" fill="white"/>
+                        <circle cx="50" cy="50" r="4" fill="#2c5282"/>
+                        <path d="M 35 70 L 40 65 M 45 72 L 48 68 M 52 68 L 55 72 M 60 65 L 65 70" stroke="#3182ce" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Wing Evolution</h3>
+                </div>
+
+                <!-- Logo 3: Hexagon Tech -->
+                <div class="logo-item">
+                    <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="50,10 85,30 85,70 50,90 15,70 15,30" fill="#2c5282" stroke="#1a365d" stroke-width="2"/>
+                        <path d="M 50 30 L 45 40 L 35 45 L 40 55 L 50 50 Z" fill="#60a5fa"/>
+                        <path d="M 50 30 L 55 40 L 65 45 L 60 55 L 50 50 Z" fill="#93c5fd"/>
+                        <path d="M 40 55 L 50 60 L 60 55 L 50 70 Z" fill="#3b82f6"/>
+                        <circle cx="35" cy="45" r="2" fill="white"/>
+                        <circle cx="50" cy="30" r="2" fill="white"/>
+                        <circle cx="65" cy="45" r="2" fill="white"/>
+                        <line x1="35" y1="45" x2="50" y2="30" stroke="white" stroke-width="1"/>
+                        <line x1="50" y1="30" x2="65" y2="45" stroke="white" stroke-width="1"/>
+                    </svg>
+                    <h3>Hexagon Network</h3>
+                </div>
+
+                <!-- Logo 4: Modern Minimalist -->
+                <div class="logo-item">
+                    <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="10" width="80" height="80" rx="15" fill="#2c5282"/>
+                        <path d="M 30 50 L 40 35 L 50 40 L 60 30 L 70 45" stroke="#60a5fa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M 40 35 L 45 45 L 40 50 Z" fill="#93c5fd"/>
+                        <path d="M 60 30 L 65 40 L 60 45 Z" fill="#93c5fd"/>
+                        <circle cx="30" cy="50" r="3" fill="#60a5fa"/>
+                        <circle cx="70" cy="45" r="3" fill="#60a5fa"/>
+                        <text x="50" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">AVIARY</text>
+                    </svg>
+                    <h3>Minimalist Flight</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Resources -->
+        <div class="preview-section">
+            <h2>💡 Design Notes</h2>
+            <div class="instructions">
+                <h3>Color Palette</h3>
+                <ul>
+                    <li><strong>Primary Blue:</strong> #2c5282 (Professional, trustworthy)</li>
+                    <li><strong>Light Blue:</strong> #60a5fa (Innovation, technology)</li>
+                    <li><strong>Accent Blue:</strong> #93c5fd (Modern, approachable)</li>
+                    <li><strong>Dark Blue:</strong> #1a365d (Depth, reliability)</li>
+                </ul>
+                
+                <h3 style="margin-top: 15px;">Logo Concept</h3>
+                <ul>
+                    <li><strong>Bird/Aviary:</strong> Represents growth, freedom, and perspective</li>
+                    <li><strong>Circuit Elements:</strong> Symbolizes technology and connectivity</li>
+                    <li><strong>"AT" Initials:</strong> Brand recognition and modern identity</li>
+                    <li><strong>Blue Tones:</strong> Convey professionalism and trust in IT sector</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
